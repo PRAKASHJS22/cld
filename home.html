@@ -14,7 +14,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <style type="text/css"></style>
 <style>
-.carousel-inner img {
+   .carousel-inner img {
     width: 100%;
     height: 100%;
   }
@@ -22,7 +22,8 @@
 </head>
 <body>
     <!--Nabar-->
-<div>
+<div class="wrap">
+  <div class="header">
     <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
             <img src="E:\New_Cld_website\images\new_cldlogo.jpg" width="150px" height="150px" alt="CLD">
             <h1 class="h1 font-weight-bold">CENTRE FOR LEARNING AND DEVELOPMENT</h1>
@@ -48,6 +49,7 @@
             </div>
         </div>
     </nav>
+  </div>
 </div>
 <!--End of Navbar-->
 
@@ -63,21 +65,21 @@
     </ul>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="E:\New_Cld_website\images\Taj-Mahal.jpg" alt="Los Angeles" width="1100" height="500">
+        <img src="E:\New_Cld_website\images\DSC03848.JPG" alt="Los Angeles" width="1100" height="500">
         <div class="carousel-caption">
           <h3>adhahda</h3>
           <p>dfgdagadgd</p>
         </div>   
       </div>
       <div class="carousel-item">
-        <img src="E:\New_Cld_website\images\Christ-the-Redeemer.jpg" alt="Chicago" width="1100" height="500">
+        <img src="E:\New_Cld_website\images\DSC03836.JPG" alt="Chicago" width="1100" height="500">
         <div class="carousel-caption">
           <h3>gfhghfss</h3>
           <p>fgdggdss</p>
         </div>   
       </div>
       <div class="carousel-item">
-        <img src="E:\New_Cld_website\images\Colosseum-at-night.jpg" alt="New York" width="1100" height="500">
+        <img src="E:\New_Cld_website\images\DSC03828.JPG" alt="New York" width="1100" height="500">
         <div class="carousel-caption">
           <h3>dfgaaga</h3>
           <p>dfgdgfdgag</p>
@@ -110,8 +112,8 @@
 <div class="container-fluid">
     <!-- Control the column width, and how they should appear on different devices -->
     <div class="row" style="margin: 1px;">
-      <div class="col-sm-6" style="background-color:yellow;">
-        <h1 style="text-align: center;text">
+      <div class="col-md-6" style="background-color:yellow;">
+        <h1 style="text-align: center;">
            About
         </h1>
      <p>
@@ -129,13 +131,21 @@
                     or one who avoids a pain that produces no resultant pleasure?"
      </p>
       </div>   
-      <div class="col-sm-6" style="background-color:orange;">
+      <div class="col-md-6" style="background-color:orange">
         <h1 style="text-align: center;">
             Calender
         </h1>
-
       </div>
    </div>
+</div>
+<div>  
+  <marquee direction="up" height="200" scrollamount="4px" onmouseover="stop()" onmouseout="start()">
+    <ul class="right">
+      <li><a href="https://example.com">Websitefsfsfsfsdfdsfsdfsdfdsfsd</a></li>
+      <li><a href="mailto:m.bluth@example.com">Email</a></li>
+      <li><a href="tel:+123456789">Phone</a></li>
+    </ul>
+  </marquee>
 </div>
 </body>
 </html>
