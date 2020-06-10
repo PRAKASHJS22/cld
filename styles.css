@@ -1,3 +1,7 @@
+*{
+  margin:0;
+  padding:0;
+}
 body{
   background-color:rgb(39, 154, 207)
 }
@@ -8,16 +12,15 @@ body{
 .topnav-right {
   float: right;
 }
-*{
-  margin:0;
-  padding:0;
-}
+
 .h1{
   margin-top:0px;
   margin-left: 20px;
   font-size: 35px;
   text-shadow:2px 2px #179bcf; 
 }
+
+/*
 nav.shift ul li a {
   position:relative;
   z-index: 1;
@@ -46,4 +49,17 @@ nav.shift ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
+}
+*/
+a{
+  color:ghostwhite;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.right {
+  list-style-type: none;
+  margin-right: 30px;
+  text-align: right;
+  float: right;
 }
