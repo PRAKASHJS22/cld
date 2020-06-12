@@ -1,9 +1,12 @@
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
+
+
 body{
-  background-color:rgb(39, 154, 207)
+  background-color:#2BCEF0;
 }
 .navbar {
   min-height: 50px;
@@ -63,3 +66,10 @@ a{
   text-align: right;
   float: right;
 }
+.bg-secondary{
+  background-color:turquoise;
+}
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: green; 
+} 
