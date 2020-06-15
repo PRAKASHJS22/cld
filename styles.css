@@ -2,9 +2,9 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-}
-
-
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}   
 body{
   background-color:#2BCEF0;
 }
@@ -15,14 +15,18 @@ body{
 .topnav-right {
   float: right;
 }
-
 .h1{
   margin-top:0px;
   margin-left: 20px;
   font-size: 35px;
-  text-shadow:2px 2px #179bcf; 
+  text-shadow:1px 1px rgb(235, 12, 79); 
+  color:mediumspringgreen;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
-
+.bg-company-red {
+  background-color: rgb(9, 55, 204) !important;
+}
 /*
 nav.shift ul li a {
   position:relative;
@@ -66,10 +70,3 @@ a{
   text-align: right;
   float: right;
 }
-.bg-secondary{
-  background-color:turquoise;
-}
-.navbar-custom .navbar-brand, 
-.navbar-custom .navbar-text { 
-    color: green; 
-} 
