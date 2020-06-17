@@ -3,7 +3,6 @@
   padding:0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
- 
 }   
 body{
   background-color:#2BCEF0;
@@ -24,9 +23,21 @@ body{
   letter-spacing: 1px;
   word-spacing: 1px;
 }
+
+#h3{
+  color: black;
+}
 .bg-company-red {
   background-color: rgb(9, 55, 204) !important;
 }
+.nav-item a:hover {
+  cursor: pointer;
+  background-color: coral;
+}
+.navbar-nav a:hover{
+  background-color: coral;
+}
+
 /*
 nav.shift ul li a {
   position:relative;
@@ -59,13 +70,13 @@ nav.shift ul li a:hover:after {
 }
 */
 a{
+
   color:ghostwhite;
   font-size: 25px;
   font-weight: 400;
   text-decoration: underline;
 }
-.right {
-  list-style-type: none;
+.right{
   margin-right: 30px;
   text-align: right;
   float: right;
